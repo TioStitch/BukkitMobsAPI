@@ -3,8 +3,11 @@ A API de criação de mobs semi-completa com a capacidade de utilizar métodos f
 
 Antes de olhar os métodos você tem atualmente algumas opções
 totalmente customizadas, são elas:
+
 ***- Nome do Mob.*** (**Valor em Metadata:** 0 (Nome do Mob sem espaços))
+
 ***- Dano do Mob.*** (**Valor em Metadata:** 1 ("damage"))
+
 ***- Vida do Mob.*** (**Valor em Metadata:** 2 ("health"))
 
 **Método Específicado:**

@@ -24,12 +24,6 @@ public class Main extends JavaPlugin implements Listener {
     public void onEnable() {
         plugin = this;
 
-        for (Player pall : Bukkit.getOnlinePlayers()) {
-            final Location loc = pall.getLocation();
-
-            new SuperBabyZombie(loc);
-        }
-
         Bukkit.getPluginManager().registerEvents(new EntityDamageAPI(), this);
         Bukkit.getPluginManager().registerEvents(this, this);
     }

@@ -1,0 +1,5 @@
+name: BukkitMobsAPI
+version: 1.0
+main: de.tiostitch.entity.Main
+author: TioStitch
+description: Uma Api para auxiliar na criação de mobs. | Api for mobs creation.
